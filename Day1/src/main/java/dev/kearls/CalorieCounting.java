@@ -64,8 +64,6 @@ public class CalorieCounting {
     public List<String> getInput(String filename) throws IOException {
         Path inputFile = Paths.get(filename);
 
-
-
         List<String> lines = Files.readAllLines(inputFile);
         System.out.println("Input has " + lines.size() + " lines");
 
